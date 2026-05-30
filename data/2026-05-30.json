@@ -1,0 +1,122 @@
+{
+  "date": "2026-05-30",
+  "score": 53,
+  "label": "Uneasy calm",
+  "emoji": "🌥️",
+  "summary": "The world enters the weekend caught between dread and progress. War still dominates: the rickety U.S.–Iran ceasefire holds only on paper as American casualties climb past 420 and gas prices sit at four-year highs, while Israel orders its army to seize most of Gaza and bombs Beirut. Yet diplomacy flickers — Washington and Tehran have reached a tentative memorandum to reopen the Strait of Hormuz and open 60-day nuclear talks, and oil is falling on the hope it sticks.\n\nThe planet itself is sending warnings. A new report projects global temperatures will breach the 1.5°C Paris limit, the UN says the hottest year on record is all but certain by 2030, and deadly heat has already killed dozens across India and Pakistan. An Ebola outbreak is spreading in eastern Congo.\n\nBut the day is not all gloom. Markets are buoyant — Japan's Nikkei topped 65,000 for the first time — Algeria became the latest nation to eliminate blinding trachoma, and a run of scientific breakthroughs in light-based AI, space computing and medical diagnosis hint at a more capable, healthier future. The mood is watchful: real danger, real hope, no resolution yet.",
+  "dimensions": {
+    "conflict": 38,
+    "economy": 60,
+    "climate": 39,
+    "humanInterest": 74,
+    "techProgress": 77
+  },
+  "regions": {
+    "northAmerica": 55,
+    "southAmerica": 47,
+    "europe": 52,
+    "africa": 54,
+    "middleEast": 39,
+    "asia": 58,
+    "oceania": 65
+  },
+  "drivers": [
+    {
+      "direction": "up",
+      "headline": "US and Iran reach tentative agreement to reopen Strait of Hormuz and begin 60-day nuclear talks",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/05/28/world/live-news/iran-war-us-news",
+      "dimension": "conflict"
+    },
+    {
+      "direction": "down",
+      "headline": "US casualties in Iran war rise past 420 as military strikes resume despite ceasefire",
+      "source": "The Intercept",
+      "url": "https://theintercept.com/2026/05/26/us-iran-war-casualties-ceasefire/",
+      "dimension": "conflict"
+    },
+    {
+      "direction": "down",
+      "headline": "Netanyahu orders army to seize 70% of Gaza as Israel bombs Beirut and expands Lebanon assault",
+      "source": "Democracy Now!",
+      "url": "https://www.democracynow.org/2026/5/29/headlines",
+      "dimension": "conflict"
+    },
+    {
+      "direction": "down",
+      "headline": "Report projects global temperatures will exceed the 1.5°C Paris climate limit",
+      "source": "NPR",
+      "url": "https://www.npr.org/sections/world/",
+      "dimension": "climate"
+    },
+    {
+      "direction": "down",
+      "headline": "Hottest year on record almost certain by 2030, UN warns; deadly heat kills dozens in India and Pakistan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/5/28/hottest-year-in-history-almost-certain-to-occur-by-end-of-2030-un-warns",
+      "dimension": "climate"
+    },
+    {
+      "direction": "down",
+      "headline": "WHO chief visits Kinshasa as rare Ebola outbreak spreads in eastern Congo",
+      "source": "NPR",
+      "url": "https://www.npr.org/sections/world/",
+      "dimension": "humanInterest"
+    },
+    {
+      "direction": "up",
+      "headline": "Algeria eliminates trachoma, the world's leading infectious cause of blindness — WHO calls it a 'historic triumph'",
+      "source": "Good News Network",
+      "url": "https://www.goodnewsnetwork.org/",
+      "dimension": "humanInterest"
+    },
+    {
+      "direction": "up",
+      "headline": "Japan's Nikkei 225 tops 65,000 for the first time as oil falls on Hormuz reopening hopes",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/location/east-asia/china",
+      "dimension": "economy"
+    },
+    {
+      "direction": "up",
+      "headline": "African Development Bank projects Africa will be the world's fastest-growing region in 2026 at ~4.2%",
+      "source": "UK Parliament Commons Library",
+      "url": "https://commonslibrary.parliament.uk/africa-in-2026-conflict-elections-and-a-new-uk-framework/",
+      "dimension": "economy"
+    },
+    {
+      "direction": "up",
+      "headline": "Penn researchers create light-matter particle that could make AI computing far faster and more efficient",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260518041341.htm",
+      "dimension": "techProgress"
+    },
+    {
+      "direction": "up",
+      "headline": "Quad nations agree to jointly build a Fiji port and launch critical-minerals and energy-security initiatives",
+      "source": "Radio Free Asia",
+      "url": "https://www.rfa.org/english/pacific/2026/05/29/quad-port-fiji-supply-chain-us-japan-india/",
+      "dimension": "techProgress"
+    }
+  ],
+  "sources_consulted": [
+    "Reuters",
+    "Associated Press",
+    "NPR",
+    "BBC",
+    "Al Jazeera",
+    "CNN",
+    "Democracy Now!",
+    "The Intercept",
+    "CNBC",
+    "Nikkei Asia",
+    "Radio Free Asia",
+    "S&P Global",
+    "UN News",
+    "Earth.Org",
+    "ScienceDaily",
+    "Good News Network",
+    "Positive News",
+    "UK Parliament Commons Library"
+  ]
+}
