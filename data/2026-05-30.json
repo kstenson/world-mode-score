@@ -26,77 +26,88 @@
       "headline": "US and Iran reach tentative agreement to reopen Strait of Hormuz and begin 60-day nuclear talks",
       "source": "CNN",
       "url": "https://www.cnn.com/2026/05/28/world/live-news/iran-war-us-news",
-      "dimension": "conflict"
+      "dimension": "conflict",
+      "region": "middleEast"
     },
     {
       "direction": "down",
       "headline": "US casualties in Iran war rise past 420 as military strikes resume despite ceasefire",
       "source": "The Intercept",
       "url": "https://theintercept.com/2026/05/26/us-iran-war-casualties-ceasefire/",
-      "dimension": "conflict"
+      "dimension": "conflict",
+      "region": "middleEast"
     },
     {
       "direction": "down",
       "headline": "Netanyahu orders army to seize 70% of Gaza as Israel bombs Beirut and expands Lebanon assault",
       "source": "Democracy Now!",
       "url": "https://www.democracynow.org/2026/5/29/headlines",
-      "dimension": "conflict"
+      "dimension": "conflict",
+      "region": "middleEast"
     },
     {
       "direction": "down",
       "headline": "Report projects global temperatures will exceed the 1.5°C Paris climate limit",
       "source": "NPR",
       "url": "https://www.npr.org/sections/world/",
-      "dimension": "climate"
+      "dimension": "climate",
+      "region": "europe"
     },
     {
       "direction": "down",
       "headline": "Hottest year on record almost certain by 2030, UN warns; deadly heat kills dozens in India and Pakistan",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/5/28/hottest-year-in-history-almost-certain-to-occur-by-end-of-2030-un-warns",
-      "dimension": "climate"
+      "dimension": "climate",
+      "region": "asia"
     },
     {
       "direction": "down",
       "headline": "WHO chief visits Kinshasa as rare Ebola outbreak spreads in eastern Congo",
       "source": "NPR",
       "url": "https://www.npr.org/sections/world/",
-      "dimension": "humanInterest"
+      "dimension": "humanInterest",
+      "region": "africa"
     },
     {
       "direction": "up",
       "headline": "Algeria eliminates trachoma, the world's leading infectious cause of blindness — WHO calls it a 'historic triumph'",
       "source": "Good News Network",
       "url": "https://www.goodnewsnetwork.org/",
-      "dimension": "humanInterest"
+      "dimension": "humanInterest",
+      "region": "africa"
     },
     {
       "direction": "up",
       "headline": "Japan's Nikkei 225 tops 65,000 for the first time as oil falls on Hormuz reopening hopes",
       "source": "Nikkei Asia",
       "url": "https://asia.nikkei.com/location/east-asia/china",
-      "dimension": "economy"
+      "dimension": "economy",
+      "region": "asia"
     },
     {
       "direction": "up",
       "headline": "African Development Bank projects Africa will be the world's fastest-growing region in 2026 at ~4.2%",
       "source": "UK Parliament Commons Library",
       "url": "https://commonslibrary.parliament.uk/africa-in-2026-conflict-elections-and-a-new-uk-framework/",
-      "dimension": "economy"
+      "dimension": "economy",
+      "region": "africa"
     },
     {
       "direction": "up",
       "headline": "Penn researchers create light-matter particle that could make AI computing far faster and more efficient",
       "source": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/05/260518041341.htm",
-      "dimension": "techProgress"
+      "dimension": "techProgress",
+      "region": "northAmerica"
     },
     {
       "direction": "up",
       "headline": "Quad nations agree to jointly build a Fiji port and launch critical-minerals and energy-security initiatives",
       "source": "Radio Free Asia",
       "url": "https://www.rfa.org/english/pacific/2026/05/29/quad-port-fiji-supply-chain-us-japan-india/",
-      "dimension": "techProgress"
+      "dimension": "techProgress",
+      "region": "oceania"
     }
   ],
   "sources_consulted": [

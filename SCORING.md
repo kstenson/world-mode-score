@@ -62,6 +62,9 @@ in the summary if you do.
 - **Every entry in `drivers` must cite a real story** with a working `url` and `source`.
   Do not invent headlines or links. If you cannot find a source, drop the driver.
 - Aim for **8–12 drivers**, a mix of `up` and `down`, spread across dimensions.
+- Each driver should carry a `dimension` and, where the story is clearly tied to one
+  place, a `region` (one of the seven region keys). The `region` tag powers the regional
+  drill-down on the dashboard — global stories with no clear home may omit it.
 - List every outlet you actually consulted in `sources_consulted`.
 
 ## Output contract

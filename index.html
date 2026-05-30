@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>World Mood Score</title>
   <meta name="description" content="A daily dashboard for the mood of the world, built from a broad set of news sources." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>" />
 </head>
@@ -31,8 +30,17 @@
         <div class="emoji" id="emoji"></div>
         <h1 class="label" id="label">Loading…</h1>
         <div class="delta" id="delta"></div>
-        <svg class="sparkline" id="sparkline" viewBox="0 0 300 56" preserveAspectRatio="none" aria-label="Score over time"></svg>
-        <div class="spark-caption" id="sparkCaption"></div>
+      </div>
+    </section>
+
+    <section class="panel" aria-label="Score history">
+      <div class="panel-head">
+        <h2>Score over time</h2>
+        <div class="chart-caption" id="historyCaption"></div>
+      </div>
+      <div class="chart-wrap">
+        <svg class="chart" id="historyChart" viewBox="0 0 720 300" preserveAspectRatio="xMidYMid meet" role="img" aria-label="World mood score over time"></svg>
+        <div class="chart-tip" id="historyTip" hidden></div>
       </div>
     </section>
 
@@ -42,7 +50,10 @@
     </section>
 
     <section class="panel" aria-label="Regions">
-      <h2>Around the world</h2>
+      <div class="panel-head">
+        <h2>Around the world</h2>
+        <div class="chart-caption">Select a region for its trend &amp; stories</div>
+      </div>
       <div class="regions" id="regions"></div>
     </section>
 
@@ -65,6 +76,28 @@
       </p>
     </footer>
   </main>
+
+  <!-- Regional drill-down -->
+  <div class="modal-backdrop" id="regionModal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <div class="modal-head">
+        <div>
+          <div class="modal-eyebrow">Regional view</div>
+          <h2 class="modal-title" id="modalTitle">—</h2>
+        </div>
+        <div class="modal-score" id="modalScore">—</div>
+      </div>
+      <div class="chart-wrap">
+        <svg class="chart" id="regionChart" viewBox="0 0 720 280" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Regional score over time"></svg>
+        <div class="chart-tip" id="regionTip" hidden></div>
+      </div>
+      <div class="modal-legend" id="modalLegend"></div>
+      <h3 class="modal-subhead">Stories from this region</h3>
+      <ul class="drivers" id="regionDrivers"></ul>
+    </div>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
