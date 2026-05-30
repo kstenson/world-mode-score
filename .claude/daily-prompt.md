@@ -11,6 +11,6 @@ Steps:
 4. Write `data/<today>.json` matching the schema of the most recent file in `data/`, with
    8–12 real, cited drivers (working URLs only — never fabricate).
 5. Add today's date to the front of `days` in `data/manifest.json` and set `updated`.
-6. Commit (`Daily mood: <date> (score NN)`) and push to the working branch.
+6. Commit (`Daily mood: <date> (score NN)`) and push to `main` (Pages publishes from `main`).
 
 Do not edit past data files. Do not touch index.html / app.js / style.css.

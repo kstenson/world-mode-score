@@ -8,15 +8,12 @@ JSON files in `data/`. The only thing that changes day to day is a new `data/<da
 1. Push this repo to GitHub.
 2. In the repo: **Settings → Pages**.
 3. Under **Build and deployment**, set **Source = Deploy from a branch**.
-4. Choose the branch (e.g. `main`) and folder **`/ (root)`**, then **Save**.
+4. Choose branch **`main`** and folder **`/ (root)`**, then **Save**.
 5. After a minute the site is live at `https://<user>.github.io/<repo>/`.
 
 Because everything is static and data is plain JSON fetched at runtime, **every push that
-adds a data file redeploys the site automatically** — no build step.
-
-> Note: the daily session commits to a working branch. Either point Pages at that branch,
-> or merge the working branch into your Pages branch (a second tiny scheduled step, or a
-> branch-protection auto-merge, can do this).
+adds a data file redeploys the site automatically** — no build step. The daily session
+commits straight to `main`, so each run publishes the new day.
 
 ## 2. Schedule the daily generation
 
@@ -27,7 +24,7 @@ The content engine is a **Claude Code on the web scheduled session**:
 3. Set the session prompt to the contents of `.claude/daily-prompt.md`
    (or simply: *"Run today's World Mood Score generation per CLAUDE.md."*).
 4. Make sure the environment's **network policy allows web search/fetch** so the session
-   can research the news, and that it can **push** to the working branch.
+   can research the news, and that it can **push** to `main`.
 
 Each run researches the day, writes `data/<date>.json`, updates `data/manifest.json`,
 and pushes — which redeploys the page.

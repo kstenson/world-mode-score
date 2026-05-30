@@ -19,8 +19,9 @@ the daily schedule, is to research the day's world news and produce that file.**
    `data/`. Include 8–12 `drivers`, each with a real, working source URL. Never fabricate.
 5. **Update** `data/manifest.json`: add today's date to the **front** of the `days` array
    and set `updated` to today.
-6. **Commit and push** to the working branch with a message like
-   `Daily mood: YYYY-MM-DD (score NN)`.
+6. **Commit and push** to `main` with a message like
+   `Daily mood: YYYY-MM-DD (score NN)`. GitHub Pages serves from `main`, so the push
+   publishes the day.
 
 ## Rules
 
