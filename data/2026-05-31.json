@@ -1,0 +1,125 @@
+{
+  "date": "2026-05-31",
+  "score": 45,
+  "label": "Strained and watchful",
+  "emoji": "🌥️",
+  "summary": "May ends on a knife's edge. A tentative 60-day ceasefire-extension framework between the US and Iran has been agreed by negotiators, but President Trump has not yet signed off, violations continue on both sides, and the Strait of Hormuz remains disputed. Myanmar's junta has consolidated control with China's backing; Gaza's nominal ceasefire masks ongoing killings; and Sudan has become the world's hungriest nation — famine is confirmed in parts of Darfur, children are dying, and humanitarian funding stands at only a fifth of need. Europe's energy shock is proving stubbornly real: EU inflation is running above 10% and growth forecasts have been slashed, with Germany, France and Italy all staring at possible contraction. The global composite PMI fell to a 31-month low of 47.5 in May. The climate adds another layer of threat: a Super El Niño is forming in the Pacific faster than expected, with a 1-in-3 chance of becoming record-breaking by winter. Against this, a genuine landmark: wind and solar generated more electricity globally than natural gas for the first time ever in April, a structural shift years in the making. Australian research confirms four-day work weeks sustain productivity in practice — 14 of 15 companies that tried it chose to continue. The mood is watchful: real danger on multiple fronts, real progress in pockets, no resolution yet.",
+  "dimensions": {
+    "conflict": 37,
+    "economy": 42,
+    "climate": 38,
+    "humanInterest": 46,
+    "techProgress": 70
+  },
+  "regions": {
+    "northAmerica": 50,
+    "southAmerica": 47,
+    "europe": 42,
+    "africa": 36,
+    "middleEast": 37,
+    "asia": 47,
+    "oceania": 62
+  },
+  "drivers": [
+    {
+      "direction": "up",
+      "headline": "US and Iranian negotiators agree tentative 60-day deal to extend ceasefire and begin nuclear talks",
+      "source": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/u-s-and-iranian-negotiators-reach-tentative-deal-to-extend-ceasefire-and-start-new-nuclear-talks",
+      "dimension": "conflict",
+      "region": "middleEast"
+    },
+    {
+      "direction": "down",
+      "headline": "Ceasefire violations persist and Trump yet to approve Iran peace deal; war continues on multiple fronts",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/05/28/iran-peace-deal-trump-approval",
+      "dimension": "conflict",
+      "region": "middleEast"
+    },
+    {
+      "direction": "down",
+      "headline": "Myanmar junta gains the upper hand in civil war as China backs military regime and resistance momentum stalls",
+      "source": "The Diplomat",
+      "url": "https://thediplomat.com/2026/04/how-myanmars-civil-war-has-slipped-down-the-global-crisis-hierarchy/",
+      "dimension": "conflict",
+      "region": "asia"
+    },
+    {
+      "direction": "down",
+      "headline": "Children dying because of hunger as famine risks detected in two new locations in Sudan's Darfur",
+      "source": "Save the Children",
+      "url": "https://www.savethechildren.org/us/about-us/media-and-news/2026-press-releases/children-dying-hunger-famine-risks-detected-sudan",
+      "dimension": "humanInterest",
+      "region": "africa"
+    },
+    {
+      "direction": "down",
+      "headline": "EU Spring 2026 forecast: Middle East energy shock drives inflation above 10% and slashes growth across major European economies",
+      "source": "European Commission",
+      "url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/economic-forecasts/spring-2026-economic-forecast-slowdown-growth-energy-shock-drives-inflation_en",
+      "dimension": "economy",
+      "region": "europe"
+    },
+    {
+      "direction": "down",
+      "headline": "Global composite PMI falls to 31-month low of 47.5 in May as Middle East conflict ripples through supply chains",
+      "source": "S&P Global",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/05/global-economic-outlook-may-2026",
+      "dimension": "economy"
+    },
+    {
+      "direction": "down",
+      "headline": "Super El Niño forming faster than expected; forecasters put 1-in-3 odds on record-breaking strength by winter 2026-27",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/05/14/weather/super-el-nino-climate",
+      "dimension": "climate"
+    },
+    {
+      "direction": "up",
+      "headline": "In a first, wind and solar generated more electricity than natural gas globally in April 2026",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/05/20/in-a-first-wind-solar-generated-more-power-than-gas-globally-april-2026/",
+      "dimension": "techProgress"
+    },
+    {
+      "direction": "up",
+      "headline": "15 Australian companies trialled a four-day work week — 14 chose to keep it, with productivity maintained or improved",
+      "source": "Phys.org",
+      "url": "https://phys.org/news/2026-05-australian-companies-fourday-week.html",
+      "dimension": "humanInterest",
+      "region": "oceania"
+    },
+    {
+      "direction": "up",
+      "headline": "New data shows US violent crime declining sharply — homicides down 17.7%, robberies down 20.4% across major cities",
+      "source": "Good Good Good",
+      "url": "https://www.goodgoodgood.co/articles/good-news-this-week-may-30-2026",
+      "dimension": "humanInterest",
+      "region": "northAmerica"
+    }
+  ],
+  "sources_consulted": [
+    "Reuters",
+    "Associated Press",
+    "NPR",
+    "PBS NewsHour",
+    "BBC",
+    "Al Jazeera",
+    "CNN",
+    "Axios",
+    "CBS News",
+    "The Diplomat",
+    "S&P Global",
+    "Save the Children",
+    "UN News",
+    "European Commission",
+    "Electrek",
+    "Phys.org",
+    "Good Good Good",
+    "Positive News",
+    "Earth.Org",
+    "International Crisis Group",
+    "Weather.com"
+  ]
+}
