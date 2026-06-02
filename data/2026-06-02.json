@@ -1,0 +1,131 @@
+{
+  "date": "2026-06-02",
+  "score": 51,
+  "label": "Tense and fraying",
+  "emoji": "🌥️",
+  "summary": "The world's fragile ceasefires are coming apart. Iran suspended its talks with the United States, warning that Israel's expanding offensive in southern Lebanon — where the death toll has passed 3,400 since March — had violated the truce on all fronts. Despite President Trump's claim that \"all shooting will stop,\" Israeli strikes killed at least eight people in Lebanon overnight and fighting continued in Gaza, where monitors logged fresh violations. The Middle East now holds three simultaneous ceasefires and active combat in all three.\n\nAgainst that, the economic and scientific weather is brighter. Global markets rose on an AI-driven technology rally, with Hong Kong's Hang Seng up about 2.5%; oil retreated toward $91, easing some inflation worries; and Africa's economies are holding firm at 4.2% growth, with Morocco overtaking South Africa as the continent's most industrialized. A once-nightly pill for depression posted promising phase-3 results.\n\nThe climate outlook darkened a shade: the UN warned the world to brace for floods, drought and heat as an El Niño looms with an 80% chance by August. A US appeals court struck down a ban on transgender troops, while the EU's harder line on migration drew criticism. The mood is watchful and a notch more anxious than last week — real progress, but the peace is thinning.",
+  "dimensions": {
+    "conflict": 33,
+    "economy": 63,
+    "climate": 40,
+    "humanInterest": 67,
+    "techProgress": 72
+  },
+  "regions": {
+    "northAmerica": 53,
+    "southAmerica": 54,
+    "europe": 50,
+    "africa": 56,
+    "middleEast": 33,
+    "asia": 57,
+    "oceania": 62
+  },
+  "drivers": [
+    {
+      "direction": "down",
+      "headline": "Iran halts talks with the US over Israeli actions in Lebanon and Gaza",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/06/01/g-s1-125285/iran-israel-us-lebanon-gaza",
+      "dimension": "conflict",
+      "region": "middleEast"
+    },
+    {
+      "direction": "down",
+      "headline": "Israeli strikes kill at least eight in Lebanon overnight despite Trump's claim 'all shooting will stop'",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/06/01/world/live-news/iran-trump-lebanon-war-news",
+      "dimension": "conflict",
+      "region": "middleEast"
+    },
+    {
+      "direction": "down",
+      "headline": "Ceasefires in Iran, Lebanon and Gaza are fraying as fighting continues on all fronts",
+      "source": "The Washington Post",
+      "url": "https://www.washingtonpost.com/world/2026/06/02/iran-us-israel-gaza-lebanon-hamas-hezbollah-fighting-ceasefire/af4a7bf8-5e77-11f1-9c46-d6211372eede_story.html",
+      "dimension": "conflict",
+      "region": "middleEast"
+    },
+    {
+      "direction": "up",
+      "headline": "Global markets rise on an AI-driven technology rally; Hong Kong's Hang Seng climbs ~2.5%",
+      "source": "STL.News",
+      "url": "https://www.stl.news/global-markets-rise-on-tuesday-june-2-2026/",
+      "dimension": "economy",
+      "region": "asia"
+    },
+    {
+      "direction": "up",
+      "headline": "WTI crude retreats toward $91 a barrel, easing some inflation pressure",
+      "source": "Fortune",
+      "url": "https://fortune.com/article/price-of-oil-06-02-2026/",
+      "dimension": "economy"
+    },
+    {
+      "direction": "down",
+      "headline": "UN tells the world to brace for extreme weather as an El Niño looms (80% chance by August)",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/6/2/un-tells-world-to-brace-for-extreme-weather-as-el-nino-looms",
+      "dimension": "climate"
+    },
+    {
+      "direction": "up",
+      "headline": "Africa's growth holds firm at 4.2% amid global turbulence, says 2026 African Economic Outlook",
+      "source": "African Development Bank",
+      "url": "https://www.afdb.org/en/news-and-events/press-releases/africas-growth-holds-firm-amid-global-turbulence-says-2026-african-economic-outlook-93626",
+      "dimension": "economy",
+      "region": "africa"
+    },
+    {
+      "direction": "up",
+      "headline": "Morocco overtakes South Africa as the continent's most industrialized economy",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-01/morocco-pips-south-africa-as-continent-s-top-industrial-economy",
+      "dimension": "economy",
+      "region": "africa"
+    },
+    {
+      "direction": "up",
+      "headline": "A once-nightly pill for depression shows promising results in a phase-3 clinical trial",
+      "source": "SciTechDaily",
+      "url": "https://scitechdaily.com/",
+      "dimension": "techProgress",
+      "region": "northAmerica"
+    },
+    {
+      "direction": "up",
+      "headline": "US appeals court rules the Trump administration illegally banned transgender troops",
+      "source": "Democracy Now!",
+      "url": "https://www.democracynow.org/2026/6/2/headlines",
+      "dimension": "humanInterest",
+      "region": "northAmerica"
+    },
+    {
+      "direction": "down",
+      "headline": "EU advances migration overhaul to ramp up deportations and offshore detention, drawing criticism",
+      "source": "Democracy Now!",
+      "url": "https://www.democracynow.org/2026/6/2/headlines",
+      "dimension": "humanInterest",
+      "region": "europe"
+    }
+  ],
+  "sources_consulted": [
+    "Reuters",
+    "Associated Press",
+    "NPR",
+    "CNN",
+    "The Washington Post",
+    "Al Jazeera",
+    "Democracy Now!",
+    "Havana Times",
+    "Global News",
+    "STL.News",
+    "Fortune",
+    "Trading Economics",
+    "African Development Bank",
+    "Bloomberg",
+    "MercoPress",
+    "SciTechDaily",
+    "Good News Network",
+    "Positive News"
+  ]
+}
